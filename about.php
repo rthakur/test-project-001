@@ -31,6 +31,7 @@
       <input type="text" class="form-control" id="inputZip">
     </div>
   </div>
-  <a href="?selected=service" class="btn btn-primary">next</a>
-  <button type="submit" class="btn btn-primary" name="action">save</button>
+  <div class="form-group text-right">
+    <a href="?selected=service" class="btn btn-primary btn-sm">Save and next </a>
+  </div>
 </form>
