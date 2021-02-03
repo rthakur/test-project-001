@@ -5,9 +5,9 @@
 <table class="table">
    <thead>
      <tr>
-       <th>Firstname</th>
-       <th>Lastname</th>
-       <th> Action </th>
+       <th>product name</th>
+       <th>return</th>
+       <th>Action</th>
      </tr>
    </thead>
    <tbody>
@@ -21,7 +21,14 @@
      </tr>
    </tbody>
  </table>
- 
+ <div class="row mb-4">
+   <div class="col-md-1 text-left">
+       <a href="add_vcard_1.php" class="btn btn-primary">back</a>
+   </div>
+   <div class="col-md-11 text-right">
+       <a href="add_vcard_1.php" class="btn btn-primary">save</a>
+   </div>
+ </div>
  
  
 <!-- Modal -->
@@ -35,7 +42,18 @@
         </button>
       </div>
       <div class="modal-body">
-        ...
+        
+        <form>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Product Name</label>
+    <input type="text" class="form-control" placeholder="Example input">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">return</label>
+    <input type="text" class="form-control" placeholder="Another input">
+  </div>
+</form>
+        
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
