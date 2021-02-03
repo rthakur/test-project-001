@@ -23,7 +23,7 @@
       <label for="inputState">State</label>
       <select id="inputState" class="form-control">
         <option selected>Choose...</option>
-        <option>...</option>
+        <option>..</option>
       </select>
     </div>
     <div class="form-group col-md-2">
@@ -31,6 +31,6 @@
       <input type="text" class="form-control" id="inputZip">
     </div>
   </div>
-  <a href="add_vcard_1.php" class="btn btn-primary">back</a>
+  <a href="?selected=service" class="btn btn-primary">next</a>
   <button type="submit" class="btn btn-primary" name="action">save</button>
 </form>

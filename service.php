@@ -6,7 +6,7 @@
    <thead>
      <tr>
        <th>product name</th>
-       <th>return</th>
+       <th>return id</th>
        <th>Action</th>
      </tr>
    </thead>
@@ -23,7 +23,7 @@
  </table>
  <div class="row mb-4">
    <div class="col-md-1 text-left">
-       <a href="add_vcard_1.php" class="btn btn-primary">back</a>
+       <a href="?selected=gallery" class="btn btn-primary">next</a>
    </div>
    <div class="col-md-11 text-right">
        <a href="add_vcard_1.php" class="btn btn-primary">save</a>
@@ -49,7 +49,7 @@
     <input type="text" class="form-control" placeholder="Example input">
   </div>
   <div class="form-group">
-    <label for="formGroupExampleInput2">return</label>
+    <label for="formGroupExampleInput2">return id</label>
     <input type="text" class="form-control" placeholder="Another input">
   </div>
 </form>
